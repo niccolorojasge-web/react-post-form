@@ -64,6 +64,7 @@ function Forum() {
                               </label>
                             </div>
                         </div>
+                        <button type="submit" className="btn btn-primary">posta post</button>
                     </form>
                 </div>
             </div>
