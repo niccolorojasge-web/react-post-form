@@ -50,6 +50,8 @@ function Forum() {
                                     placeholder="body"
                                     value={data.body}
                                     onChange={handleform}
+                                    rows={8}
+                                    wrap='wrap'
                                 />
                             </label>
                             <div>
