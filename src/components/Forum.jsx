@@ -45,13 +45,14 @@ function Forum() {
                             </div>
                             <label htmlFor="">
                                 <textarea
-                                    name="author"
+                                    name="body"
                                     type="textarea"
                                     placeholder="body"
                                     value={data.body}
                                     onChange={handleform}
                                     rows={8}
                                     wrap='wrap'
+                                    id='body'
                                 />
                             </label>
                             <div>
